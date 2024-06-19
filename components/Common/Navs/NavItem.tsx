@@ -8,7 +8,7 @@ export default function NavItem({ item }: { item: IRoute }) {
   const pathname = usePathname();
   const isActive = routerMatcher(pathname) === item.matcher;
   const activeClassName =
-    "bg-secondary_orange text-primary_white dark:text-secondary_black hover:bg-primary_orange transition-all duration-300 px-[18px]";
+    "bg-secondary_orange text-primary_white dark:text-secondary_black hover:bg-secondary_orange transition-all duration-300 px-[18px]";
   return (
     <Link
       href={item.href}

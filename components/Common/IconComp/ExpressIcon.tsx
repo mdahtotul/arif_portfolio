@@ -1,7 +1,8 @@
 "use client";
 
 import { TIconCompProps } from "@/types/commonTypes";
-import { useState } from "react";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const ExpressIcon = ({
   className,
@@ -9,9 +10,18 @@ const ExpressIcon = ({
   hoverStroke,
   onClick,
 }: TIconCompProps) => {
+  const { resolvedTheme } = useTheme();
   const [strokeColor, setStrokeColor] = useState(stroke || "#212121");
   const setHoverColor = () => setStrokeColor(hoverStroke || "#917AEB");
   const removeHoverColor = () => setStrokeColor(stroke || "#212121");
+
+  useEffect(() => {
+    if (resolvedTheme) {
+      resolvedTheme === "dark"
+        ? setStrokeColor("#FCFCFA")
+        : setStrokeColor("#0A0A0A");
+    }
+  }, [resolvedTheme]);
   return (
     <svg
       viewBox="0 0 48 48"

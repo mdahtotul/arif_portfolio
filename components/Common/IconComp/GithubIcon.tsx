@@ -1,11 +1,25 @@
+"use client";
 import { TIconCompProps } from "@/types/commonTypes";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
-const GithubIcon = ({ className }: TIconCompProps) => {
+const GithubIcon = ({ className, stroke, hoverStroke }: TIconCompProps) => {
+  const { resolvedTheme } = useTheme();
+  const [strokeColor, setStrokeColor] = useState(stroke || "#212121");
+  const setHoverColor = () => setStrokeColor(hoverStroke || "#917AEB");
+  const removeHoverColor = () => setStrokeColor(stroke || "#212121");
+
+  useEffect(() => {
+    if (resolvedTheme) {
+      resolvedTheme === "dark"
+        ? setStrokeColor("#FCFCFA")
+        : setStrokeColor("#0A0A0A");
+    }
+  }, [resolvedTheme]);
   return (
     <svg
       className={className}
-      fill="#000000"
-      xmlns="http://www.w3.org/2000/svg"
+      fill={strokeColor}
       viewBox="0 0 64 64"
       width="48px"
       height="48px"

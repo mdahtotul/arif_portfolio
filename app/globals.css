@@ -138,7 +138,7 @@ body,
 .bg-glow-3 {
   background: conic-gradient(
     from 0deg at 50% 50%,
-    #ff0000 0deg,
+    #ffd 0deg,
     hsl(354, 100%, 50%) 54.89161972682219deg,
     #00a6ff 106.69924423399361deg,
     #4797ff 162deg,

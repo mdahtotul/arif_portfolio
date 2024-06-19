@@ -1,5 +1,7 @@
+"use client";
 import { TIconCompProps } from "@/types/commonTypes";
-import { useState } from "react";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const NextJSIcon = ({
   className,
@@ -7,9 +9,18 @@ const NextJSIcon = ({
   hoverStroke,
   onClick,
 }: TIconCompProps) => {
+  const { resolvedTheme } = useTheme();
   const [strokeColor, setStrokeColor] = useState(stroke || "#141414");
   const setHoverColor = () => setStrokeColor(hoverStroke || "#917AEB");
   const removeHoverColor = () => setStrokeColor(stroke || "#141414");
+
+  useEffect(() => {
+    if (resolvedTheme) {
+      resolvedTheme === "dark"
+        ? setStrokeColor("#FCFCFA")
+        : setStrokeColor("#0A0A0A");
+    }
+  }, [resolvedTheme]);
   return (
     <svg
       id="Layer_1"
