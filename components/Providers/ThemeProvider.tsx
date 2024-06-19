@@ -8,7 +8,7 @@ export default function ThemeProvider({ children }: PropsWithChildren) {
   return (
     <NextThemeProvider
       attribute="class"
-      defaultTheme="system"
+      defaultTheme="dark"
       enableSystem
       disableTransitionOnChange
       storageKey="arif-portfolio-theme"
