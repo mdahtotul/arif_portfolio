@@ -2,6 +2,7 @@
 
 import Button2 from "../Common/Button2";
 import GlowEffect from "../Common/GlowEffect";
+import { TextGenerateEffect } from "../ui/TextGenerateEffect";
 
 export default function HeroSection() {
   const handleCheckResume = () => {
@@ -17,19 +18,12 @@ export default function HeroSection() {
 
         <div className="">
           <div className="md:max-w-3xl mx-auto mt-14">
-            <h1 className="font-title font-normal text-4xl xs:text-5xl md:text-7xl text-primary_black dark:text-white text-center">
-              Want{" "}
-              <span className="text-secondary_orange">
-                Seamless Experiences
-              </span>{" "}
-              with Your Website?
-            </h1>
-            {/* <TextGenerateEffect
+            <TextGenerateEffect
               words="Want Seamless Experiences with Your Website?"
               className="font-title font-normal text-4xl xs:text-5xl md:text-7xl text-primary_black dark:text-white text-center"
               spanWords={["Seamless", "Experiences"]}
               spanClassName="text-secondary_orange"
-            /> */}
+            />
           </div>
 
           <p className="font-subtitle max-w-xl text-center mx-auto text-secondary_gray text-base sm:text-xl font-medium mt-7">
