@@ -19,7 +19,7 @@ export default function ProjectSection() {
         </p>
       </div>
 
-      <div className="flex flex-wrap items-center justify-center xs:p-4 gap-x-24 mt-5">
+      <div className="w-[90%] overflow-hidden flex flex-wrap items-center justify-center xs:p-4 gap-x-24 mt-5 mx-auto">
         {dummyListProjects
           .sort((a, b) => b.priority - a.priority)
           ?.map((item, idx) => (

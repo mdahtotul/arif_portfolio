@@ -18,7 +18,7 @@ export default function HeroSection() {
         <HeroSpotlights />
 
         <div className="">
-          <div className="w-[`90%] md:max-w-3xl mx-auto mt-14">
+          <div className="w-[90%] md:max-w-3xl mx-auto mt-14 overflow-hidden bg-slate-400">
             <TextGenerateEffect
               words="Want Seamless Experiences with Your Website?"
               className="font-title font-normal text-4xl xs:text-5xl md:text-7xl text-primary_black dark:text-white text-center"
@@ -26,8 +26,8 @@ export default function HeroSection() {
               spanClassName="text-secondary_orange"
             />
           </div>
-          `
-          <p className="font-subtitle max-w-xl text-center mx-auto text-secondary_gray text-base sm:text-xl font-medium mt-7">
+
+          <p className="w-[90%] overflow-hidden font-subtitle max-w-xl text-center mx-auto text-secondary_gray text-base sm:text-xl font-medium mt-7">
             If you seek smooth experiences, stunning visuals, and
             industry-standard code quality for your website, you&apos;re in the
             right place!
