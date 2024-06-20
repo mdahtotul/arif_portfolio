@@ -2,7 +2,6 @@
 
 import Button2 from "../Common/Button2";
 import GlowEffect from "../Common/GlowEffect";
-import HeroSpotlights from "./HeroSpotlights";
 
 export default function HeroSection() {
   const handleCheckResume = () => {
@@ -14,7 +13,7 @@ export default function HeroSection() {
   return (
     <>
       <section className="h-[700px] ">
-        <HeroSpotlights />
+        {/* <HeroSpotlights /> */}
 
         <div className="">
           <div className="md:max-w-3xl mx-auto mt-14">
