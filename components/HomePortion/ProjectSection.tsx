@@ -1,4 +1,6 @@
+import { dummyListProjects } from "@/data";
 import Badge from "../Common/Badge";
+import ProjectCard from "../Common/ProjectCard";
 
 export default function ProjectSection() {
   return (
@@ -15,6 +17,14 @@ export default function ProjectSection() {
           I&apos;ve worked across a number of industries and have achieved some
           incredible projects with some incredible people and brands.
         </p>
+      </div>
+
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 mt-5">
+        {dummyListProjects
+          .sort((a, b) => b.priority - a.priority)
+          ?.map((item, idx) => (
+            <ProjectCard key={idx} item={item} />
+          ))}
       </div>
     </section>
   );
