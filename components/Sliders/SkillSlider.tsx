@@ -18,7 +18,7 @@ export default function SkillSlider({ data }: ISkillSliderProps) {
         slidesPerView={"auto"}
         grabCursor={true}
         autoplay={{
-          delay: 1000,
+          delay: 800,
           disableOnInteraction: true,
         }}
         pagination={{

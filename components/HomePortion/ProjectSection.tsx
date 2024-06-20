@@ -1,6 +1,7 @@
 import { dummyListProjects } from "@/data";
 import Badge from "../Common/Badge";
 import ProjectCard from "../Common/ProjectCard";
+import ProjectSlider from "../Sliders/ProjectSlider";
 
 export default function ProjectSection() {
   return (
@@ -19,20 +20,16 @@ export default function ProjectSection() {
         </p>
       </div>
 
-      {/* <div className="flex flex-wrap items-center justify-center xs:p-4 gap-x-24 mt-5">
+      <div className="hidden xl:flex flex-wrap items-center justify-center xs:p-4 gap-x-24 mt-5">
         {dummyListProjects
           .sort((a, b) => b.priority - a.priority)
           ?.map((item, idx) => (
             <ProjectCard key={idx} item={item} />
           ))}
-      </div> */}
-      <p className="text-center text-primary_orange text-5xl">new section</p>
-      <div className="flex flex-wrap items-center justify-center xs:p-4 gap-x-24 mt-5">
-        {dummyListProjects
-          .sort((a, b) => b.priority - a.priority)
-          ?.map((item, idx) => (
-            <ProjectCard key={idx} item={item} />
-          ))}
+      </div>
+
+      <div className="block xl:hidden">
+        <ProjectSlider data={dummyListProjects} />
       </div>
     </section>
   );
