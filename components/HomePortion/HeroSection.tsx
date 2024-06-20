@@ -33,16 +33,17 @@ export default function HeroSection() {
           </p>
         </div>
 
-        <div className="flex justify-center gap-4 mt-10">
+        <div className="flex justify-center gap-4 mt-10 z-10">
           <Button2
             type="button"
             variant="orange"
             size="lg"
             onClick={handleCheckResume}
+            className="z-40"
           >
             Check Resume
           </Button2>
-          <Button2 type="button" variant="black" size="lg">
+          <Button2 type="button" variant="black" size="lg" className="z-40">
             Projects
           </Button2>
         </div>

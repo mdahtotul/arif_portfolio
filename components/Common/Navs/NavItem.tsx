@@ -13,16 +13,16 @@ export default function NavItem({ item }: { item: IRoute }) {
     <Link
       href={item.href}
       className={cn(
-        "flex items-center gap-[10px] py-3 rounded-xl",
+        "flex items-center gap-[10px] py-3 rounded-xl z-40",
         isActive && activeClassName
       )}
     >
-      <span className="inline-block xs:hidden sm:inline-block">
+      <span className="inline-block xs:hidden sm:inline-block z-40">
         {item?.icon}
       </span>
       <span
         className={cn(
-          "font-title font-medium hidden xs:inline-block",
+          "font-title font-medium hidden xs:inline-block z-40",
           isActive
             ? "text-primary_white dark:text-secondary_black"
             : "text-secondary_black dark:text-primary_white"

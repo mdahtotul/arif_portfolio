@@ -32,8 +32,8 @@ export default function VSCodeIcon({
         y2="7.42"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stop-color="#29b6f6" />
-        <stop offset="1" stop-color="#13b2f6" />
+        <stop offset="0" stopColor="#29b6f6" />
+        <stop offset="1" stopColor="#13b2f6" />
       </linearGradient>
       <path
         fill="url(#HjBUFHyNtcsDcBgnZBZ2Sa)"
@@ -47,14 +47,14 @@ export default function VSCodeIcon({
         y2="7.173"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset=".115" stop-color="#0076bb" />
-        <stop offset=".257" stop-color="#0069b0" />
-        <stop offset=".28" stop-color="#0069b0" />
-        <stop offset=".424" stop-color="#0069b0" />
-        <stop offset=".491" stop-color="#0072b7" />
-        <stop offset=".577" stop-color="#0076bb" />
-        <stop offset=".795" stop-color="#0076bb" />
-        <stop offset="1" stop-color="#006eb9" />
+        <stop offset=".115" stopColor="#0076bb" />
+        <stop offset=".257" stopColor="#0069b0" />
+        <stop offset=".28" stopColor="#0069b0" />
+        <stop offset=".424" stopColor="#0069b0" />
+        <stop offset=".491" stopColor="#0072b7" />
+        <stop offset=".577" stopColor="#0076bb" />
+        <stop offset=".795" stopColor="#0076bb" />
+        <stop offset="1" stopColor="#006eb9" />
       </linearGradient>
       <path
         fill="url(#HjBUFHyNtcsDcBgnZBZ2Sb)"
