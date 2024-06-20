@@ -10,7 +10,7 @@ export default function ProjectCard({ item }: { item: TProjectItem }) {
   return (
     <div
       className="w-[80vw] h-[28rem] sm:w-[570px] sm:h-[35rem] lg:min-h-[32.5rem] flex items-center justify-center"
-      // onClick={() => window.open(item?.live_site)}
+      onClick={() => window.open(item?.live_site)}
     >
       <PinContainer title={item?.live_site} href={item?.live_site}>
         <div className="relative flex items-center justify-center w-[80vw] sm:w-[570px] h-[30vh] sm:h-[330px] overflow-hidden mb-5">
