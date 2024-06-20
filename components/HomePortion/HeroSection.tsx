@@ -2,7 +2,6 @@
 
 import Button2 from "../Common/Button2";
 import GlowEffect from "../Common/GlowEffect";
-import { TextGenerateEffect } from "../ui/TextGenerateEffect";
 import HeroSpotlights from "./HeroSpotlights";
 
 export default function HeroSection() {
@@ -18,16 +17,23 @@ export default function HeroSection() {
         <HeroSpotlights />
 
         <div className="">
-          <div className="w-[90%] md:max-w-3xl mx-auto mt-14 overflow-hidden bg-slate-400">
-            <TextGenerateEffect
+          <div className="md:max-w-3xl mx-auto mt-14">
+            <h1 className="font-title font-normal text-4xl xs:text-5xl md:text-7xl text-primary_black dark:text-white text-center">
+              Want{" "}
+              <span className="text-secondary_orange">
+                Seamless Experiences
+              </span>{" "}
+              with Your Website?
+            </h1>
+            {/* <TextGenerateEffect
               words="Want Seamless Experiences with Your Website?"
               className="font-title font-normal text-4xl xs:text-5xl md:text-7xl text-primary_black dark:text-white text-center"
               spanWords={["Seamless", "Experiences"]}
               spanClassName="text-secondary_orange"
-            />
+            /> */}
           </div>
 
-          <p className="w-[90%] overflow-hidden font-subtitle max-w-xl text-center mx-auto text-secondary_gray text-base sm:text-xl font-medium mt-7">
+          <p className="font-subtitle max-w-xl text-center mx-auto text-secondary_gray text-base sm:text-xl font-medium mt-7">
             If you seek smooth experiences, stunning visuals, and
             industry-standard code quality for your website, you&apos;re in the
             right place!
