@@ -12,9 +12,9 @@ interface ISkillSliderProps {
 
 export default function SkillSlider({ data }: ISkillSliderProps) {
   return (
-    <>
+    <div className="">
       <Swiper
-        spaceBetween={10}
+        spaceBetween={20}
         slidesPerView={"auto"}
         grabCursor={true}
         autoplay={{
@@ -24,42 +24,21 @@ export default function SkillSlider({ data }: ISkillSliderProps) {
         pagination={{
           clickable: true,
         }}
-        breakpoints={{
-          200: {
-            slidesPerView: 3,
-          },
-          300: {
-            slidesPerView: 4,
-          },
-          450: {
-            slidesPerView: 5,
-          },
-          640: {
-            slidesPerView: 6,
-          },
-          770: {
-            slidesPerView: 8,
-          },
-          900: {
-            slidesPerView: 8,
-          },
-          1024: {
-            slidesPerView: 10,
-          },
-          1100: {
-            slidesPerView: 12,
-          },
-        }}
         modules={[Autoplay]}
         className="skill_slider"
       >
         {data.map((item, idx) => (
-          <SwiperSlide key={idx}>
+          <SwiperSlide
+            key={idx}
+            style={{
+              width: "max-content",
+            }}
+          >
             <SkillItem item={item} />
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 }
 
