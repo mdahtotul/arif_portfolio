@@ -9,7 +9,7 @@ export default function HomePage() {
 
       <SkillSection />
 
-      {/* <ProjectSection /> */}
+      <ProjectSection />
     </div>
   );
 }
