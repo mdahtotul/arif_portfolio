@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 // Import Swiper styles
+import ModalProvider from "@/components/Providers/ModalProvider";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -37,7 +38,10 @@ export default function RootLayout({
         className={`${signika} ${exo2} ${firaSansCondensed} overflow-x-hidden`}
       >
         <ThemeProvider>
-          <UserPanelLayout>{children}</UserPanelLayout>
+          <UserPanelLayout>
+            <ModalProvider />
+            {children}
+          </UserPanelLayout>
         </ThemeProvider>
       </body>
     </html>
