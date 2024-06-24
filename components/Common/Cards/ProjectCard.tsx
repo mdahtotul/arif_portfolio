@@ -4,7 +4,7 @@
 import { iconMatcher } from "@/lib/matcher";
 import { TProjectItem } from "@/types/projectTypes";
 import { SendIcon } from "lucide-react";
-import { PinContainer } from "../../ui/PinContainer";
+import { PinContainer } from "../../ui/3d-pin";
 
 export default function ProjectCard({ item }: { item: TProjectItem }) {
   return (
@@ -29,7 +29,7 @@ export default function ProjectCard({ item }: { item: TProjectItem }) {
             {item?.title}
           </h1>
 
-          <p className="lg:h-12 lg:text-xl lg;font-normal font-light text-sm line-clamp-2">
+          <p className="lg:h-12 lg:text-xl text-secondary_gray font-medium text-sm line-clamp-2">
             {item?.description}
           </p>
 

@@ -2,7 +2,7 @@
 
 import Button2 from "../Common/Button2";
 import GlowEffect from "../Common/GlowEffect";
-import { TextGenerateEffect } from "../ui/TextGenerateEffect";
+import { TextGenerateEffect } from "../ui/text-generate-effect";
 
 export default function HeroSection() {
   const handleCheckResume = () => {
@@ -13,7 +13,7 @@ export default function HeroSection() {
   };
   return (
     <>
-      <section className="h-[700px] ">
+      <section className="h-full md:h-[700px] ">
         {/* <HeroSpotlights /> */}
 
         <div className="">

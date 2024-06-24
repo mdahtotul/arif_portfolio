@@ -1,9 +1,10 @@
 import { listYoutubeBlog } from "@/actions/youtube";
+import AboutSection from "@/components/HomePortion/AboutSection";
 import BlogSection from "@/components/HomePortion/BlogSection";
 import HeroSection from "@/components/HomePortion/HeroSection";
 import ProjectSection from "@/components/HomePortion/ProjectSection";
 import SkillSection from "@/components/HomePortion/SkillSection";
-import { BackgroundBeams } from "@/components/ui/BackgroundBeams";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default async function HomePage() {
   const blogData = await listYoutubeBlog();
@@ -14,11 +15,15 @@ export default async function HomePage() {
 
       <HeroSection />
 
-      <SkillSection />
+      <div className="xs:container">
+        <AboutSection />
 
-      <ProjectSection />
+        <SkillSection />
 
-      <BlogSection data={blogData} />
+        <ProjectSection />
+
+        <BlogSection data={blogData} />
+      </div>
     </div>
   );
 }
