@@ -8,7 +8,7 @@ export default function GlowEffect() {
           </div>
 
           <div className="absolute w-[150px] md:w-[300px] h-[150px] md:h-[300px] rounded-[500px] overflow-visible block blur-[32px] aspect-[1/1]">
-            <div className="absolute bg-glow-2 w-[150px] md:w-[300px] h-[150px] md:h-[300px] overflow-hidden rounded-full block z-30" />
+            <div className="absolute bg-glow-1 w-[150px] md:w-[300px] h-[150px] md:h-[300px] overflow-hidden rounded-full block z-30" />
           </div>
 
           <div className="absolute w-[200px] md:w-[400px] h-[200px] md:h-[400px] rounded-[500px] overflow-visible block blur-[70px] aspect-[1/1]">

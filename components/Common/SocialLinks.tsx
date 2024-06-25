@@ -48,7 +48,7 @@ export default function SocialLinks() {
         />
       </a>
       <a
-        href="https://instagram.com/mdahtotul"
+        href="https://instagram.com/ahtotul"
         target="_blank"
         rel="noopener noreferrer"
       >

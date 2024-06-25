@@ -126,15 +126,6 @@ body,
   );
 }
 
-.bg-glow-2 {
-  background: conic-gradient(
-    from 0deg at 50% 50%,
-    #ffd9ad 0deg,
-    #139ce5 180deg,
-    #fd864d 360deg
-  );
-}
-
 .bg-glow-3 {
   background: conic-gradient(
     from 0deg at 50% 50%,
