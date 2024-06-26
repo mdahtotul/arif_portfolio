@@ -1,5 +1,5 @@
-import ComparisonCard from "../Common/Cards/ComparisonCard";
-import SectionHeader from "../Common/SectionHeader";
+import ComparisonCard from "@/components/Common/Cards/ComparisonCard";
+import SectionHeader from "@/components/Common/SectionHeader";
 
 export default function ComparisonSection() {
   const other = [

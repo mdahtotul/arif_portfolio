@@ -1,7 +1,7 @@
 "use client";
 
+import VideoPlayerModal from "@/components/Common/Modals/VideoPlayerModal";
 import { useEffect, useState } from "react";
-import VideoPlayerModal from "../Common/Modals/VideoPlayerModal";
 
 export default function ModalProvider() {
   const [isMounted, setIsMounted] = useState(false);

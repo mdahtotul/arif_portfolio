@@ -1,7 +1,7 @@
-import GlowCardBlue from "../Common/Cards/GlowCardBlue";
-import GlowCardBlueOrange from "../Common/Cards/GlowCardBlueOrange";
-import GlowCardOrange from "../Common/Cards/GlowCardOrange";
-import SectionHeader from "../Common/SectionHeader";
+import SectionHeader from "@/components/Common/SectionHeader";
+import GlowCardBlue from "@/components/HomeComponents/AboutPortion/GlowEffect/GlowCardBlue";
+import GlowCardBlueOrange from "@/components/HomeComponents/AboutPortion/GlowEffect/GlowCardBlueOrange";
+import GlowCardOrange from "@/components/HomeComponents/AboutPortion/GlowEffect/GlowCardOrange";
 
 export default function LanguageSection() {
   return (

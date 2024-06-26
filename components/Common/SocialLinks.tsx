@@ -1,12 +1,12 @@
 "use client";
 
+import MagicButton from "@/components/ui/magic-button";
 import {
   GithubIcon,
   InstagramIcon,
   LinkedinIcon,
   YoutubeIcon,
 } from "lucide-react";
-import MagicButton from "../ui/magic-button";
 
 export default function SocialLinks() {
   return (

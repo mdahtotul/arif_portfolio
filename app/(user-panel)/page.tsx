@@ -1,11 +1,11 @@
 import { listYoutubeBlog } from "@/actions/youtube";
-import AboutSection from "@/components/HomePortion/AboutSection";
-import BlogSection from "@/components/HomePortion/BlogSection";
-import ComparisonSection from "@/components/HomePortion/ComparisonSection";
-import HeroSection from "@/components/HomePortion/HeroSection";
-import LanguageSection from "@/components/HomePortion/LanguageSection";
-import ProjectSection from "@/components/HomePortion/ProjectSection";
-import SkillSection from "@/components/HomePortion/SkillSection";
+import AboutSection from "@/components/HomeComponents/AboutPortion/AboutSection";
+import LanguageSection from "@/components/HomeComponents/AboutPortion/LanguageSection";
+import SkillSection from "@/components/HomeComponents/AboutPortion/SkillSection";
+import BlogSection from "@/components/HomeComponents/BlogPortion/BlogSection";
+import ComparisonSection from "@/components/HomeComponents/ComparisonPortion/ComparisonSection";
+import HeroSection from "@/components/HomeComponents/HeroPortion/HeroSection";
+import ProjectSection from "@/components/HomeComponents/ProjectPortion/ProjectSection";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default async function HomePage() {

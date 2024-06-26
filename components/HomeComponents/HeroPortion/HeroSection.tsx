@@ -1,8 +1,8 @@
 "use client";
 
-import Button2 from "../Common/Button2";
-import GlowEffect from "../Common/GlowEffect";
-import { TextGenerateEffect } from "../ui/text-generate-effect";
+import Button2 from "@/components/Common/Button2";
+import GlowEffect from "@/components/HomeComponents/HeroPortion/GlowEffect";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 export default function HeroSection() {
   const handleCheckResume = () => {

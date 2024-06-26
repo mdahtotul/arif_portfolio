@@ -1,7 +1,7 @@
+import ProjectCard from "@/components/Common/Cards/ProjectCard";
+import SectionHeader from "@/components/Common/SectionHeader";
+import ProjectSlider from "@/components/Sliders/ProjectSlider";
 import { dummyListProjects } from "@/data";
-import ProjectCard from "../Common/Cards/ProjectCard";
-import SectionHeader from "../Common/SectionHeader";
-import ProjectSlider from "../Sliders/ProjectSlider";
 
 export default function ProjectSection() {
   return (

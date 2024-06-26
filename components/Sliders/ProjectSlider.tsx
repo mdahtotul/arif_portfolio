@@ -4,9 +4,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import required modules
+import ProjectCard from "@/components/Common/Cards/ProjectCard";
 import { TProjectItem } from "@/types/projectTypes";
 import { Autoplay } from "swiper/modules";
-import ProjectCard from "../Common/Cards/ProjectCard";
 
 interface IProjectSliderProps {
   data: TProjectItem[];

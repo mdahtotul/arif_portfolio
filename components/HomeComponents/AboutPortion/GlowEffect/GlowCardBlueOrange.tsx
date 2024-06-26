@@ -1,4 +1,4 @@
-import PythonIcon from "../IconComp/PythonIcon";
+import PythonIcon from "@/components/Common/IconComp/PythonIcon";
 
 export default function GlowCardBlueOrange() {
   return (

@@ -1,10 +1,10 @@
 "use client";
 
+import YoutubeIcon from "@/components/Common/IconComp/YoutubeIcon";
 import { usePlayerStore } from "@/hooks/useVideoPlayer";
 import { youtubeVideoUrl } from "@/lib/envs";
 import { TYoutubeSearchResultItem } from "@/types/youtubeTypes";
 import { PlayIcon } from "lucide-react";
-import YoutubeIcon from "../IconComp/YoutubeIcon";
 
 export default function BlogCard({ item }: { item: TYoutubeSearchResultItem }) {
   const { isModalOpen, setVideoUrl, onModalOpen } = usePlayerStore();

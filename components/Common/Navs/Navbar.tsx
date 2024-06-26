@@ -1,7 +1,7 @@
 "use client";
 
+import LogoIcon from "@/components/Common/IconComp/LogoIcon";
 import { cn } from "@/lib/utils";
-import LogoIcon from "../IconComp/LogoIcon";
 import { ThemeToggle } from "../ThemeToggle";
 import NavItem from "./NavItem";
 import { routes } from "./routes";

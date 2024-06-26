@@ -1,5 +1,5 @@
+import SkillSlider from "@/components/Sliders/SkillSlider";
 import { listSkill } from "@/data";
-import SkillSlider from "../Sliders/SkillSlider";
 
 export default function SkillSection() {
   return (

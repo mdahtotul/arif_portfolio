@@ -1,4 +1,4 @@
-import TSIcon from "../IconComp/TSIcon";
+import TSIcon from "@/components/Common/IconComp/TSIcon";
 
 export default function GlowCardBlue() {
   return (

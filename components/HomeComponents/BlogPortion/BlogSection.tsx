@@ -1,8 +1,8 @@
 "use client";
 
+import SectionHeader from "@/components/Common/SectionHeader";
+import BlogSlider from "@/components/Sliders/BlogSlider";
 import { TYoutubeSearchResult } from "@/types/youtubeTypes";
-import SectionHeader from "../Common/SectionHeader";
-import BlogSlider from "../Sliders/BlogSlider";
 
 export default function BlogSection({ data }: { data: TYoutubeSearchResult }) {
   return (

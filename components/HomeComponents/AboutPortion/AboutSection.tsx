@@ -1,7 +1,7 @@
+import SectionHeader from "@/components/Common/SectionHeader";
+import SocialLinks from "@/components/Common/SocialLinks";
 import Image from "next/image";
-import SectionHeader from "../Common/SectionHeader";
-import SocialLinks from "../Common/SocialLinks";
-import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
+import { TypewriterEffectSmooth } from "../../ui/typewriter-effect";
 
 export default function AboutSection() {
   const words = [

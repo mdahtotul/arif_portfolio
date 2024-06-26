@@ -1,4 +1,4 @@
-import JsIcon from "../IconComp/JsIcon";
+import JsIcon from "@/components/Common/IconComp/JsIcon";
 
 export default function GlowCardOrange() {
   return (

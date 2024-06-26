@@ -1,5 +1,5 @@
+import Navbar from "@/components/Common/Navs/Navbar";
 import { PropsWithChildren } from "react";
-import Navbar from "../Common/Navs/Navbar";
 
 export default function UserPanelLayout({ children }: PropsWithChildren) {
   return (

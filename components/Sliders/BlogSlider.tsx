@@ -4,9 +4,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import required modules
+import BlogCard from "@/components/Common/Cards/BlogCard";
 import { TYoutubeSearchResult } from "@/types/youtubeTypes";
 import { Autoplay } from "swiper/modules";
-import BlogCard from "../Common/Cards/BlogCard";
 
 export default function BlogSlider({ data }: { data: TYoutubeSearchResult }) {
   return (
