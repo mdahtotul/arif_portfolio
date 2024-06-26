@@ -10,9 +10,9 @@ const NextJSIcon = ({
   onClick,
 }: TIconCompProps) => {
   const { resolvedTheme } = useTheme();
-  const [strokeColor, setStrokeColor] = useState(stroke || "#0A0A0A");
+  const [strokeColor, setStrokeColor] = useState(stroke || "#212121");
   const setHoverColor = () => setStrokeColor(hoverStroke || "#917AEB");
-  const removeHoverColor = () => setStrokeColor(stroke || "#0A0A0A");
+  const removeHoverColor = () => setStrokeColor(stroke || "#212121");
 
   useEffect(() => {
     if (resolvedTheme) {

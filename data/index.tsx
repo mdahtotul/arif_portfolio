@@ -1,4 +1,6 @@
 import AWSIcon from "@/components/Common/IconComp/AWSIcon";
+import AxiosIcon from "@/components/Common/IconComp/AxiosIcon";
+import BashIcon from "@/components/Common/IconComp/BashIcon";
 import BootStrapIcon from "@/components/Common/IconComp/BootstrapIcon";
 import CssIcon from "@/components/Common/IconComp/CssIcon";
 import DjangoIcon from "@/components/Common/IconComp/DjangoIcon";
@@ -10,12 +12,21 @@ import GithubIcon from "@/components/Common/IconComp/GithubIcon";
 import GraphQLIcon from "@/components/Common/IconComp/GraphQLIcon";
 import HtmlIcon from "@/components/Common/IconComp/HtmlIcon";
 import JsIcon from "@/components/Common/IconComp/JsIcon";
+import JWTIcon from "@/components/Common/IconComp/JWTIcon";
 import MongoDBIcon from "@/components/Common/IconComp/MongoDBIcon";
 import MuiIcon from "@/components/Common/IconComp/MuiIcon";
+import MySqlIcon from "@/components/Common/IconComp/MySqlIcon";
 import NextJSIcon from "@/components/Common/IconComp/NextJSIcon";
 import NodeIcon from "@/components/Common/IconComp/NodeIcon";
+import PGIcon from "@/components/Common/IconComp/PGIcon";
+import PostmanIcon from "@/components/Common/IconComp/PostmanIcon";
+import PowerShell from "@/components/Common/IconComp/PowerShell";
+import PyCharmIcon from "@/components/Common/IconComp/PyCharmIcon";
+import PyTestIcon from "@/components/Common/IconComp/PyTestIcon";
 import PythonIcon from "@/components/Common/IconComp/PythonIcon";
 import ReactIcon from "@/components/Common/IconComp/ReactIcon";
+import SassIcon from "@/components/Common/IconComp/SassIcon";
+import SentryIcon from "@/components/Common/IconComp/SentryIcon";
 import TailwindIcon from "@/components/Common/IconComp/TailwindIcon";
 import ThreeJSIcon from "@/components/Common/IconComp/ThreeJSIcon";
 import TSIcon from "@/components/Common/IconComp/TSIcon";
@@ -110,6 +121,50 @@ export const listSkill: { icon: React.ReactNode; name: string }[] = [
   {
     icon: <FramerIcon />,
     name: "Framer Motion",
+  },
+  {
+    icon: <AxiosIcon />,
+    name: "Axios",
+  },
+  {
+    icon: <PowerShell />,
+    name: "PowerShell",
+  },
+  {
+    icon: <MySqlIcon />,
+    name: "MySql",
+  },
+  {
+    icon: <PGIcon />,
+    name: "Postgresql",
+  },
+  {
+    icon: <PostmanIcon />,
+    name: "Postman",
+  },
+  {
+    icon: <PyCharmIcon />,
+    name: "PyCharm",
+  },
+  {
+    icon: <SassIcon />,
+    name: "Sass",
+  },
+  {
+    icon: <SentryIcon />,
+    name: "Sentry",
+  },
+  {
+    icon: <PyTestIcon />,
+    name: "Py Test",
+  },
+  {
+    icon: <JWTIcon />,
+    name: "JWT",
+  },
+  {
+    icon: <BashIcon />,
+    name: "Bash",
   },
 ];
 

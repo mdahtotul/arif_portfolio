@@ -1,7 +1,7 @@
 import SectionHeader from "@/components/Common/SectionHeader";
 import SocialLinks from "@/components/Common/SocialLinks";
-import Image from "next/image";
 import { TypewriterEffectSmooth } from "../../ui/typewriter-effect";
+import SphericalSkills from "./SphericalSkills";
 
 export default function AboutSection() {
   const words = [
@@ -38,8 +38,8 @@ export default function AboutSection() {
         subtitle="Let me introduce myself in a few lines"
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_max-content] gap-4 px-1 xs:px-0">
-        <div className="w-full">
+      <div className="grid grid-cols-1 xl:grid-cols-[1fr_max-content] gap-4 px-1 xs:px-0 mt-5 justify-center">
+        <div className="w-full h-max my-auto">
           <TypewriterEffectSmooth
             words={words}
             className="text-xl xs:text-3xl sm:text-5xl"
@@ -56,7 +56,9 @@ export default function AboutSection() {
           <SocialLinks />
         </div>
 
-        <figure className="relative w-60 h-60 xs:w-80 xs:h-80 mx-auto lg:ml-auto">
+        <SphericalSkills />
+
+        {/* <figure className="relative w-60 h-60 xs:w-80 xs:h-80 mx-auto lg:ml-auto">
           <Image
             className="w-full h-full object-cover rounded-full"
             src={"/me.png"}
@@ -65,7 +67,7 @@ export default function AboutSection() {
             height={0}
             sizes="100%"
           />
-        </figure>
+        </figure> */}
       </div>
     </section>
   );

@@ -13,9 +13,9 @@ const AWSIcon = ({
 }: TIconCompProps) => {
   const { resolvedTheme } = useTheme();
 
-  const [strokeColor, setStrokeColor] = useState(stroke || "#f90");
+  const [strokeColor, setStrokeColor] = useState(stroke || "#212121");
   const setHoverColor = () => setStrokeColor(hoverStroke || "#917AEB");
-  const removeHoverColor = () => setStrokeColor(stroke || "#f90");
+  const removeHoverColor = () => setStrokeColor(stroke || "#212121");
 
   useEffect(() => {
     if (resolvedTheme) {

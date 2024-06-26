@@ -16,14 +16,14 @@ export default function TSIcon({
 
   return (
     <svg
-      className={`${className} w-12 h-12`}
+      className={`${className}`}
       onClick={onClick}
       onMouseEnter={setHoverColor}
       onMouseLeave={removeHoverColor}
       fill="none"
       viewBox="0 0 128 128"
-      height="128"
-      width="128"
+      height="48"
+      width="48"
     >
       <rect fill={strokeColor} height="128" rx="6" width="128" />
       <path
