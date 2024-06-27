@@ -23,7 +23,7 @@ export default function ComparisonCard({
       </h5>
 
       <div
-        className={`absolute box-border w-full ${cardHeight} flex items-center justify-center py-12 px-6 overflow-hidden content-center flex-nowrap bg-primary_white dark:bg-secondary_black rounded-3xl border border-[rgba(255, 255, 255, 0.1)]`}
+        className={`absolute box-border w-full ${cardHeight} flex items-center justify-center py-12 px-6 overflow-hidden content-center flex-nowrap bg-secondary_white dark:bg-secondary_black rounded-3xl border border-[rgba(255, 255, 255, 0.1)]`}
       >
         {/* glow part */}
         {title === "Me" && (
@@ -44,7 +44,7 @@ export default function ComparisonCard({
         )}
 
         <div
-          className={`w-full ${cardHeight} p-2 2xs:p-4 sm:p-8 rounded-3xl bg-primary_white dark:bg-secondary_black`}
+          className={`w-full ${cardHeight} p-2 2xs:p-4 sm:p-8 rounded-3xl bg-secondary_white dark:bg-secondary_black`}
         >
           {data.map((item, idx) => (
             <p

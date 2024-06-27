@@ -2,7 +2,7 @@ import TSIcon from "@/components/Common/IconComp/TSIcon";
 
 export default function GlowCardBlue() {
   return (
-    <div className="absolute box-border w-full h-[205px] flex items-center justify-center py-12 px-6 backdrop:blur-[10px] overflow-hidden content-center flex-nowrap gap-10 rounded-3xl bg-primary_white dark:bg-secondary_black border border-[rgba(255, 255, 255, 0.1)]">
+    <div className="absolute box-border w-full h-[205px] flex items-center justify-center py-12 px-6 backdrop:blur-[10px] overflow-hidden content-center flex-nowrap gap-10 rounded-3xl bg-secondary_white dark:bg-secondary_black border border-[rgba(255, 255, 255, 0.1)]">
       <div className="absolute -top-[350px] -left-52 block w-[500px] h-[500px] overflow-visible z-0 rounded-[0px_0px_0px_0px]">
         {/* 1st part */}
         <div className="absolute block w-[300px] h-[300px] blur-[32px] mix-blend-overlay overflow-visible aspect-[1/1] rounded-[500px]">

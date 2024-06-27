@@ -1,4 +1,5 @@
 "use client";
+import CanvasLoader from "@/components/Common/CanvasLoader";
 import { listSkill } from "@/data";
 import { Billboard, Html, TrackballControls } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
@@ -100,10 +101,10 @@ function CloudGroup() {
 
 export default function SphericalSkills() {
   return (
-    <div className="w-[260px] h-[260px] 2xs:w-[300px] 2xs:h-[300px] xs:w-[400px] xs:h-[400px] sm:w-[500px] sm:h-[500px] box-border overflow-hidden flex items-center justify-center content-center flex-nowrap bg-primary_white dark:bg-secondary_black rounded-3xl border border-[rgba(255, 255, 255, 0.1)] mx-auto">
+    <div className="w-[260px] h-[260px] 2xs:w-[300px] 2xs:h-[300px] xs:w-[400px] xs:h-[400px] sm:w-[500px] sm:h-[500px] box-border overflow-hidden flex items-center justify-center content-center flex-nowrap bg-secondary_white dark:bg-secondary_black rounded-3xl border border-[rgba(255, 255, 255, 0.1)] mx-auto">
       <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 90 }}>
         <fog attach="fog" args={["#202025", 0, 80]} />
-        <Suspense fallback={null}>
+        <Suspense fallback={<CanvasLoader />}>
           <CloudGroup />
         </Suspense>
         <TrackballControls />

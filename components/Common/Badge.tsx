@@ -17,7 +17,7 @@ export default function Badge({
       className={cn(
         "inline-flex items-center rounded-xl backdrop:blur-[5px]",
         variant === "b&w" &&
-          "bg-primary_white text-secondary_black dark:bg-secondary_black dark:text-primary_white border dark:border-primary_gray",
+          "bg-secondary_white text-secondary_black dark:bg-secondary_black dark:text-primary_white border dark:border-primary_gray",
         variant === "orange" &&
           "bg-secondary_orange dark:text-primary_black border dark:border-primary_gray",
         size === "lg" && "px-4 py-3",

@@ -2,7 +2,7 @@ import PythonIcon from "@/components/Common/IconComp/PythonIcon";
 
 export default function GlowCardBlueOrange() {
   return (
-    <div className="box-border absolute overflow-hidden w-full h-[205px] flex items-center justify-center content-center flex-nowrap px-12 py-6 bg-primary_white dark:bg-secondary_black rounded-3xl border border-[rgba(255, 255, 255, 0.1)]">
+    <div className="box-border absolute overflow-hidden w-full h-[205px] flex items-center justify-center content-center flex-nowrap px-12 py-6 bg-secondary_white dark:bg-secondary_black rounded-3xl border border-[rgba(255, 255, 255, 0.1)]">
       {/* glow part 1*/}
       <div className="absolute -bottom-[480px] -left-40 block w-[500px] h-[500px] z-0 overflow-visible rounded-none">
         {/* layer 1.1 */}

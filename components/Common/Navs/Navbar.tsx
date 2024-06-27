@@ -11,7 +11,7 @@ export default function Navbar({ className }: { className?: string }) {
     <nav
       className={cn("fixed w-full flex items-center justify-center", className)}
     >
-      <div className="w-max bg-primary_white dark:bg-secondary_black text-secondary_black dark:text-primary_white border dark:border-primary_gray rounded-xl px-6 py-3 overflow-hidden backdrop:blur-[10px]">
+      <div className="w-max bg-secondary_white dark:bg-secondary_black text-secondary_black dark:text-primary_white border dark:border-primary_gray rounded-xl px-6 py-3 overflow-hidden backdrop:blur-[10px]">
         <div className="flex gap-5 items-center z-40">
           <LogoIcon className="hidden xs:block z-40 cursor-pointer" />
 

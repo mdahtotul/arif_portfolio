@@ -39,6 +39,7 @@ const config = {
         primary_gray: "hsla(var(--primary-gray))",
         secondary_gray: "hsla(var(--secondary-gray))",
         primary_white: "hsla(var(--primary-white))",
+        secondary_white: "hsla(var(--secondary-white))",
         primary_orange: "hsla(var(--primary-orange))",
         secondary_orange: "hsla(var(--secondary-orange))",
 

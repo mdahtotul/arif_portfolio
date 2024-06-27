@@ -17,7 +17,7 @@ export default function BlogCard({ item }: { item: TYoutubeSearchResultItem }) {
 
   return (
     <>
-      <div className="w-max h-[500px] p-4 xs:-8 rounded-2xl xs:rounded-3xl bg-primary_white dark:bg-secondary_black border border-secondary_gray">
+      <div className="w-max h-[500px] p-4 xs:-8 rounded-2xl xs:rounded-3xl bg-secondary_white dark:bg-secondary_black border border-secondary_gray">
         {/* video portion */}
         <div className="w-[280px] xs:w-[350px] h-[180px]">
           <div className="relative w-full h-full overflow-hidden lg:rounded-3xl z-0">
