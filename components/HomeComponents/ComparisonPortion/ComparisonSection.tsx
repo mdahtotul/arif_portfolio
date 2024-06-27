@@ -20,8 +20,8 @@ export default function ComparisonSection() {
     <section>
       <SectionHeader
         badge="Comparison"
-        title="But, why work with me?"
-        spanTitle={["work"]}
+        title="But, Why Work with Me?"
+        spanTitle={["Work"]}
         subtitle=""
       />
 

@@ -8,8 +8,8 @@ export default function LanguageSection() {
     <section className="mt-16 h-[900px] xs:h-[850px] md:h-auto">
       <SectionHeader
         badge="Language"
-        title="How can I help you?"
-        spanTitle={["help"]}
+        title="How can I Help You?"
+        spanTitle={["Help"]}
         subtitle="From JavaScript, to React.js, to Next.js, and even Backend development with Django and Node.js, I've got you covered."
       />
 

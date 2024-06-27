@@ -8,8 +8,8 @@ export default function ProjectSection() {
     <section>
       <SectionHeader
         badge="My Projects"
-        title="Projects speak for themselves"
-        spanTitle={["themselves"]}
+        title="Projects Speak for Themselves"
+        spanTitle={["Themselves"]}
         subtitle="I've worked across a number of industries and have achieved some incredible projects with some incredible people and brands."
       />
 

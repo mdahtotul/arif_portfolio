@@ -35,7 +35,7 @@ export default function AboutSection() {
         badge="About Me"
         title="Who am I?"
         spanTitle={["Who"]}
-        subtitle="Let me introduce myself in a few lines"
+        subtitle="Let me Introduce myself in a few lines"
       />
 
       <div className="grid grid-cols-1 xl:grid-cols-[1fr_max-content] gap-4 px-1 xs:px-0 mt-5 justify-center">

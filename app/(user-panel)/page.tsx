@@ -4,6 +4,7 @@ import LanguageSection from "@/components/HomeComponents/AboutPortion/LanguageSe
 import SkillSection from "@/components/HomeComponents/AboutPortion/SkillSection";
 import BlogSection from "@/components/HomeComponents/BlogPortion/BlogSection";
 import ComparisonSection from "@/components/HomeComponents/ComparisonPortion/ComparisonSection";
+import ExperienceSection from "@/components/HomeComponents/ExperiencePortion/ExperienceSection";
 import HeroSection from "@/components/HomeComponents/HeroPortion/HeroSection";
 import ProjectSection from "@/components/HomeComponents/ProjectPortion/ProjectSection";
 import { BackgroundBeams } from "@/components/ui/background-beams";
@@ -31,6 +32,8 @@ export default async function HomePage() {
 
       <div className="xs:container">
         <BlogSection data={blogData} />
+
+        <ExperienceSection />
       </div>
     </div>
   );
