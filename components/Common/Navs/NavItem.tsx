@@ -2,7 +2,7 @@ import { routerMatcher } from "@/lib/matcher";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { IRoute } from "./routes";
+import { IRoute } from "../../../data/routes";
 
 export default function NavItem({ item }: { item: IRoute }) {
   const pathname = usePathname();

@@ -5,6 +5,7 @@ import {
   ProjectorIcon,
   RadarIcon,
 } from "lucide-react";
+import React from "react";
 
 export interface IRoute {
   name: string;
@@ -17,31 +18,31 @@ export const routes: IRoute[] = [
   {
     name: "About",
     href: "/",
-    icon: <DramaIcon className="w-5 h-5" />,
+    icon: React.createElement(DramaIcon, { className: "w-5 h-5" }),
     matcher: "about",
   },
   {
     name: "Projects",
     href: "/projects",
-    icon: <ProjectorIcon className="w-5 h-5" />,
+    icon: React.createElement(ProjectorIcon, { className: "w-5 h-5" }),
     matcher: "projects",
   },
   {
     name: "Skills",
     href: "/skills",
-    icon: <RadarIcon className="w-5 h-5" />,
+    icon: React.createElement(RadarIcon, { className: "w-5 h-5" }),
     matcher: "skills",
   },
   {
     name: "Blogs",
     href: "/blogs",
-    icon: <NotebookPenIcon className="w-5 h-5" />,
+    icon: React.createElement(NotebookPenIcon, { className: "w-5 h-5" }),
     matcher: "blogs",
   },
   {
     name: "Contact",
     href: "/contact",
-    icon: <GitCompareArrowsIcon className="w-5 h-5" />,
+    icon: React.createElement(GitCompareArrowsIcon, { className: "w-5 h-5" }),
     matcher: "contact",
   },
 ];

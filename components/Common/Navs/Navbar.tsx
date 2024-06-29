@@ -1,10 +1,10 @@
 "use client";
 
 import LogoIcon from "@/components/Common/IconComp/LogoIcon";
+import { routes } from "@/data/routes";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "../ThemeToggle";
 import NavItem from "./NavItem";
-import { routes } from "./routes";
 
 export default function Navbar({ className }: { className?: string }) {
   return (

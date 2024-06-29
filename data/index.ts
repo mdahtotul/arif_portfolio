@@ -18,6 +18,7 @@ import MuiIcon from "@/components/Common/IconComp/MuiIcon";
 import MySqlIcon from "@/components/Common/IconComp/MySqlIcon";
 import NextJSIcon from "@/components/Common/IconComp/NextJSIcon";
 import NodeIcon from "@/components/Common/IconComp/NodeIcon";
+import PAIcon from "@/components/Common/IconComp/PAIcon";
 import PGIcon from "@/components/Common/IconComp/PGIcon";
 import PostmanIcon from "@/components/Common/IconComp/PostmanIcon";
 import PowerShell from "@/components/Common/IconComp/PowerShell";
@@ -33,6 +34,7 @@ import TSIcon from "@/components/Common/IconComp/TSIcon";
 import VSCodeIcon from "@/components/Common/IconComp/VSCodeIcon";
 import { TExperienceItem } from "@/types/experienceTypes";
 import { TProjectItem } from "@/types/projectTypes";
+import { TTestimonialItem } from "@/types/testimonialTypes";
 import React from "react";
 
 export const listSkill: { icon: React.ReactNode; name: string }[] = [
@@ -456,11 +458,10 @@ export const dummyListProjects: TProjectItem[] = [
 
 export const dummyListExperience: TExperienceItem[] = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: React.createElement(ReactIcon, { className: "w-6 h-6" }),
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "React.js Developer - (Intern)",
+    company_name: "Pioneer Alpha",
+    icon: React.createElement(PAIcon, { className: "w-6 h-6" }),
+    date: "May 2022 - Oct 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -469,11 +470,10 @@ export const dummyListExperience: TExperienceItem[] = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: React.createElement(PostmanIcon, { className: "w-6 h-6" }),
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Frontend Developer",
+    company_name: "Pioneer Alpha",
+    icon: React.createElement(PAIcon, { className: "w-6 h-6" }),
+    date: "Oct 2021 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -482,11 +482,10 @@ export const dummyListExperience: TExperienceItem[] = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: React.createElement(JWTIcon, { className: "w-6 h-6" }),
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Lead Frontend Developer",
+    company_name: "Pioneer Alpha",
+    icon: React.createElement(PAIcon, { className: "w-6 h-6" }),
+    date: "Jan 2023 - May 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -495,16 +494,90 @@ export const dummyListExperience: TExperienceItem[] = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: React.createElement(DockerIcon, { className: "w-6 h-6" }),
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Full stack Developer (Next.js and Django)",
+    company_name: "Pioneer Alpha",
+    icon: React.createElement(PAIcon, { className: "w-6 h-6" }),
+    date: "May 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+  },
+];
+
+export const dummyListTestimonial: TTestimonialItem[] = [
+  {
+    id: "1",
+    title: "Exceptional Work Ethic",
+    user: {
+      name: "John Doe",
+      designation: "CEO",
+      image: "/me.png",
+      company: "Tech Solutions",
+    },
+    comment:
+      "Working with Mr. Arif has been a fantastic experience. Their attention to detail and commitment to quality have consistently exceeded our expectations. They are a true professional with a strong work ethic.",
+  },
+  {
+    id: "2",
+    title: "Highly Skilled Developer",
+    user: {
+      name: "John Smith",
+      company: "Web Innovators",
+      designation: "Lead Developer",
+      image: "/me.png",
+    },
+    comment:
+      "Mr. Arif brought a high level of expertise to our project. Their proficiency in TypeScript and Django was evident from day one, and their ability to quickly adapt to new challenges was impressive.",
+  },
+  {
+    id: "3",
+    title: "Reliable and Efficient",
+    user: {
+      name: "Michael Brown",
+      company: "Creative Coders",
+      designation: "Project Manager",
+      image: "/me.png",
+    },
+    comment:
+      "We have collaborated with Mr. Arif on multiple projects, and each time they have delivered reliable and efficient solutions. Their problem-solving skills and clear communication make them a valuable asset to any team.",
+  },
+  {
+    id: "4",
+    title: "Innovative and Creative",
+    user: {
+      name: "Emily Davis",
+      company: "NextGen Apps",
+      designation: "CTO",
+      image: "/me.png",
+    },
+    comment:
+      "Mr. Arif is not only a skilled developer but also brings a lot of creativity to the table. They helped us develop unique and efficient solutions that significantly improved our application.",
+  },
+  {
+    id: "5",
+    title: "Outstanding Collaboration",
+    user: {
+      name: "Robert Johnson",
+      company: "Digital Solutions",
+      designation: "Team Lead",
+      image: "/me.png",
+    },
+    comment:
+      "Working with Mr. Arif has been a pleasure. They are an excellent team player and consistently contribute valuable insights during project discussions. Their collaborative spirit has been instrumental in our project's success.",
+  },
+  {
+    id: "6",
+    title: "Expert Debugger",
+    user: {
+      name: "Laura White",
+      company: "SmartTech",
+      designation: "Senior Engineer",
+      image: "/me.png",
+    },
+    comment:
+      "When it comes to debugging, Mr. Arif is unmatched. Their ability to identify and fix issues quickly has saved us countless hours and ensured our applications run smoothly.",
   },
 ];
