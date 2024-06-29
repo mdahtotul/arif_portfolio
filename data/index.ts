@@ -31,139 +31,141 @@ import TailwindIcon from "@/components/Common/IconComp/TailwindIcon";
 import ThreeJSIcon from "@/components/Common/IconComp/ThreeJSIcon";
 import TSIcon from "@/components/Common/IconComp/TSIcon";
 import VSCodeIcon from "@/components/Common/IconComp/VSCodeIcon";
+import { TExperienceItem } from "@/types/experienceTypes";
 import { TProjectItem } from "@/types/projectTypes";
+import React from "react";
 
 export const listSkill: { icon: React.ReactNode; name: string }[] = [
   {
-    icon: <HtmlIcon />,
+    icon: React.createElement(HtmlIcon),
     name: "HTML & HTML5",
   },
   {
-    icon: <CssIcon />,
+    icon: React.createElement(CssIcon),
     name: "CSS & CSS3",
   },
   {
-    icon: <TailwindIcon />,
+    icon: React.createElement(TailwindIcon),
     name: "Tailwind",
   },
   {
-    icon: <BootStrapIcon />,
+    icon: React.createElement(BootStrapIcon),
     name: "Bootstrap",
   },
   {
-    icon: <MuiIcon />,
+    icon: React.createElement(MuiIcon),
     name: "Material UI",
   },
   {
-    icon: <JsIcon />,
+    icon: React.createElement(JsIcon),
     name: "JavaScript & ES6",
   },
   {
-    icon: <TSIcon />,
+    icon: React.createElement(TSIcon),
     name: "TypeScript",
   },
   {
-    icon: <ReactIcon />,
+    icon: React.createElement(ReactIcon),
     name: "React JS",
   },
   {
-    icon: <NextJSIcon />,
+    icon: React.createElement(NextJSIcon),
     name: "Next JS",
   },
   {
-    icon: <NodeIcon />,
+    icon: React.createElement(NodeIcon),
     name: "node JS",
   },
   {
-    icon: <ExpressIcon />,
+    icon: React.createElement(ExpressIcon),
     name: "express",
   },
   {
-    icon: <GraphQLIcon />,
+    icon: React.createElement(GraphQLIcon),
     name: "GraphQL",
   },
   {
-    icon: <GithubIcon />,
+    icon: React.createElement(GithubIcon),
     name: "GitHub",
   },
   {
-    icon: <FirebaseIcon />,
+    icon: React.createElement(FirebaseIcon),
     name: "Firebase",
   },
   {
-    icon: <MongoDBIcon />,
+    icon: React.createElement(MongoDBIcon),
     name: "Mongo DB",
   },
   {
-    icon: <PythonIcon />,
+    icon: React.createElement(PythonIcon),
     name: "Python",
   },
   {
-    icon: <DjangoIcon />,
+    icon: React.createElement(DjangoIcon),
     name: "Django",
   },
   {
-    icon: <VSCodeIcon />,
+    icon: React.createElement(VSCodeIcon),
     name: "VS Code",
   },
   {
-    icon: <DockerIcon />,
+    icon: React.createElement(DockerIcon),
     name: "Docker",
   },
   {
-    icon: <AWSIcon />,
+    icon: React.createElement(AWSIcon),
     name: "AWS",
   },
   {
-    icon: <ThreeJSIcon />,
+    icon: React.createElement(ThreeJSIcon),
     name: "Three JS",
   },
   {
-    icon: <FramerIcon />,
+    icon: React.createElement(FramerIcon),
     name: "Framer Motion",
   },
   {
-    icon: <AxiosIcon />,
+    icon: React.createElement(AxiosIcon),
     name: "Axios",
   },
   {
-    icon: <PowerShell />,
+    icon: React.createElement(PowerShell),
     name: "PowerShell",
   },
   {
-    icon: <MySqlIcon />,
+    icon: React.createElement(MySqlIcon),
     name: "MySql",
   },
   {
-    icon: <PGIcon />,
+    icon: React.createElement(PGIcon),
     name: "Postgresql",
   },
   {
-    icon: <PostmanIcon />,
+    icon: React.createElement(PostmanIcon),
     name: "Postman",
   },
   {
-    icon: <PyCharmIcon />,
+    icon: React.createElement(PyCharmIcon),
     name: "PyCharm",
   },
   {
-    icon: <SassIcon />,
+    icon: React.createElement(SassIcon),
     name: "Sass",
   },
   {
-    icon: <SentryIcon />,
+    icon: React.createElement(SentryIcon),
     name: "Sentry",
   },
   {
-    icon: <PyTestIcon />,
+    icon: React.createElement(PyTestIcon),
     name: "Py Test",
   },
   {
-    icon: <JWTIcon />,
+    icon: React.createElement(JWTIcon),
     name: "JWT",
   },
   {
-    icon: <BashIcon />,
+    icon: React.createElement(BashIcon),
     name: "Bash",
   },
 ];
@@ -172,7 +174,7 @@ export const dummyListProjects: TProjectItem[] = [
   {
     id: 1,
     title: "Honda",
-    isOfficeProject: false,
+    projectOwnerType: "personal",
     categories: ["Design"],
     priority: 4,
     status: "completed",
@@ -197,7 +199,7 @@ export const dummyListProjects: TProjectItem[] = [
   {
     id: 2,
     title: "Score",
-    isOfficeProject: false,
+    projectOwnerType: "personal",
     categories: ["Design"],
     status: "completed",
     priority: 3,
@@ -220,7 +222,7 @@ export const dummyListProjects: TProjectItem[] = [
   {
     id: 3,
     title: "Desired",
-    isOfficeProject: false,
+    projectOwnerType: "personal",
     categories: ["Full-stack"],
     priority: 7,
     description:
@@ -271,7 +273,7 @@ export const dummyListProjects: TProjectItem[] = [
   {
     id: 4,
     title: "Doctor's Portal",
-    isOfficeProject: false,
+    projectOwnerType: "personal",
     categories: ["Full-stack"],
     priority: 6,
     status: "completed",
@@ -315,7 +317,7 @@ export const dummyListProjects: TProjectItem[] = [
   {
     id: 5,
     title: "Bros chat application",
-    isOfficeProject: false,
+    projectOwnerType: "personal",
     priority: 8,
     categories: ["Full-stack"],
     description:
@@ -360,7 +362,7 @@ export const dummyListProjects: TProjectItem[] = [
   {
     id: 6,
     title: "Bon appetit",
-    isOfficeProject: false,
+    projectOwnerType: "personal",
     categories: ["Design"],
     status: "completed",
     priority: 1,
@@ -381,7 +383,7 @@ export const dummyListProjects: TProjectItem[] = [
   {
     id: 7,
     title: "Adventure",
-    isOfficeProject: false,
+    projectOwnerType: "personal",
     categories: ["Full-stack"],
     priority: 5,
     description:
@@ -431,7 +433,7 @@ export const dummyListProjects: TProjectItem[] = [
   {
     id: 8,
     title: "Desire",
-    isOfficeProject: false,
+    projectOwnerType: "personal",
     categories: ["Design"],
     priority: 2,
     status: "completed",
@@ -449,5 +451,60 @@ export const dummyListProjects: TProjectItem[] = [
     techIconLists: ["html", "css", "bootstrap", "vscode"],
     live_site: "https://desier.netlify.app/",
     client_repo: "https://github.com/arifulhasantotul/projectdesire",
+  },
+];
+
+export const dummyListExperience: TExperienceItem[] = [
+  {
+    title: "React.js Developer",
+    company_name: "Starbucks",
+    icon: React.createElement(ReactIcon, { className: "w-6 h-6" }),
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "React Native Developer",
+    company_name: "Tesla",
+    icon: React.createElement(PostmanIcon, { className: "w-6 h-6" }),
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Shopify",
+    icon: React.createElement(JWTIcon, { className: "w-6 h-6" }),
+    iconBg: "#383E56",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Meta",
+    icon: React.createElement(DockerIcon, { className: "w-6 h-6" }),
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
   },
 ];

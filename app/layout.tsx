@@ -1,11 +1,11 @@
 import UserPanelLayout from "@/components/Layouts/UserPanelLayout";
+import ModalProvider from "@/components/Providers/ModalProvider";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
 import { exo2, firaSansCondensed, signika } from "@/lib/fonts";
 import type { Metadata } from "next";
 import "./globals.css";
 
 // Import Swiper styles
-import ModalProvider from "@/components/Providers/ModalProvider";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

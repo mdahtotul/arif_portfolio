@@ -3,6 +3,7 @@
 import Button2 from "@/components/Common/Button2";
 import GlowEffect from "@/components/HomeComponents/HeroPortion/GlowEffect";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import Link from "next/link";
 
 export default function HeroSection() {
   const handleCheckResume = () => {
@@ -44,7 +45,7 @@ export default function HeroSection() {
             Check Resume
           </Button2>
           <Button2 type="button" variant="black" size="lg" className="z-40">
-            Projects
+            <Link href="#projects">Projects</Link>
           </Button2>
         </div>
 

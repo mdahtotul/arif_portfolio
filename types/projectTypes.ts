@@ -13,7 +13,7 @@ export type TProjectItem = {
   sub_images?: string[];
   tags?: string[];
   categories?: string[];
-  isOfficeProject?: boolean;
+  projectOwnerType?: "personal" | "office" | "client";
   client_repo?: string;
   server_repo?: string;
   live_site?: string;

@@ -9,6 +9,7 @@ body,
 :root {
   height: 100%;
   font-family: var(--font-signika);
+  scroll-behavior: smooth;
 }
 
 /*

@@ -5,7 +5,7 @@ import { dummyListProjects } from "@/data";
 
 export default function ProjectSection() {
   return (
-    <section>
+    <section id="projects">
       <SectionHeader
         badge="My Projects"
         title="Projects Speak for Themselves"

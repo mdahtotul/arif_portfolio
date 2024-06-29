@@ -9,7 +9,7 @@ export default function PyCharmIcon({ className }: TIconCompProps) {
       fill="none"
       className={className}
     >
-      <g clip-path="url(#clip0_87_8030)">
+      <g clipPath="url(#clip0_87_8030)">
         <path
           d="M22.4456 5.02881L31.7714 12.846L28.4342 19.6574L22.7656 18.1031H17.9199L22.4456 5.02881Z"
           fill="url(#paint0_linear_87_8030)"
@@ -53,8 +53,8 @@ export default function PyCharmIcon({ className }: TIconCompProps) {
           y2="12.3641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#21D789" />
-          <stop offset="1" stop-color="#07C3F2" />
+          <stop stopColor="#21D789" />
+          <stop offset="1" stopColor="#07C3F2" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_87_8030"
@@ -64,19 +64,19 @@ export default function PyCharmIcon({ className }: TIconCompProps) {
           y2="-1.93875"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.011" stop-color="#FCF84A" />
-          <stop offset="0.112" stop-color="#A7EB62" />
-          <stop offset="0.206" stop-color="#5FE077" />
-          <stop offset="0.273" stop-color="#32DA84" />
-          <stop offset="0.306" stop-color="#21D789" />
-          <stop offset="0.577" stop-color="#21D789" />
-          <stop offset="0.597" stop-color="#21D789" />
-          <stop offset="0.686" stop-color="#20D68C" />
-          <stop offset="0.763" stop-color="#1ED497" />
-          <stop offset="0.835" stop-color="#19D1A9" />
-          <stop offset="0.904" stop-color="#13CCC2" />
-          <stop offset="0.971" stop-color="#0BC6E1" />
-          <stop offset="1" stop-color="#07C3F2" />
+          <stop offset="0.011" stopColor="#FCF84A" />
+          <stop offset="0.112" stopColor="#A7EB62" />
+          <stop offset="0.206" stopColor="#5FE077" />
+          <stop offset="0.273" stopColor="#32DA84" />
+          <stop offset="0.306" stopColor="#21D789" />
+          <stop offset="0.577" stopColor="#21D789" />
+          <stop offset="0.597" stopColor="#21D789" />
+          <stop offset="0.686" stopColor="#20D68C" />
+          <stop offset="0.763" stopColor="#1ED497" />
+          <stop offset="0.835" stopColor="#19D1A9" />
+          <stop offset="0.904" stopColor="#13CCC2" />
+          <stop offset="0.971" stopColor="#0BC6E1" />
+          <stop offset="1" stopColor="#07C3F2" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_87_8030"
@@ -86,15 +86,15 @@ export default function PyCharmIcon({ className }: TIconCompProps) {
           y2="14.9762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#21D789" />
-          <stop offset="0.164" stop-color="#24D788" />
-          <stop offset="0.305" stop-color="#2FD886" />
-          <stop offset="0.437" stop-color="#41DA82" />
-          <stop offset="0.564" stop-color="#5ADC7D" />
-          <stop offset="0.688" stop-color="#7AE077" />
-          <stop offset="0.809" stop-color="#A1E36E" />
-          <stop offset="0.925" stop-color="#CFE865" />
-          <stop offset="1" stop-color="#F1EB5E" />
+          <stop stopColor="#21D789" />
+          <stop offset="0.164" stopColor="#24D788" />
+          <stop offset="0.305" stopColor="#2FD886" />
+          <stop offset="0.437" stopColor="#41DA82" />
+          <stop offset="0.564" stopColor="#5ADC7D" />
+          <stop offset="0.688" stopColor="#7AE077" />
+          <stop offset="0.809" stopColor="#A1E36E" />
+          <stop offset="0.925" stopColor="#CFE865" />
+          <stop offset="1" stopColor="#F1EB5E" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_87_8030"
@@ -104,15 +104,15 @@ export default function PyCharmIcon({ className }: TIconCompProps) {
           y2="-1.47932"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#21D789" />
-          <stop offset="0.061" stop-color="#24D788" />
-          <stop offset="0.113" stop-color="#2FD886" />
-          <stop offset="0.162" stop-color="#41DA82" />
-          <stop offset="0.209" stop-color="#5ADD7D" />
-          <stop offset="0.255" stop-color="#79E077" />
-          <stop offset="0.258" stop-color="#7CE076" />
-          <stop offset="0.499" stop-color="#8CE173" />
-          <stop offset="0.925" stop-color="#B2E56B" />
+          <stop stopColor="#21D789" />
+          <stop offset="0.061" stopColor="#24D788" />
+          <stop offset="0.113" stopColor="#2FD886" />
+          <stop offset="0.162" stopColor="#41DA82" />
+          <stop offset="0.209" stopColor="#5ADD7D" />
+          <stop offset="0.255" stopColor="#79E077" />
+          <stop offset="0.258" stopColor="#7CE076" />
+          <stop offset="0.499" stopColor="#8CE173" />
+          <stop offset="0.925" stopColor="#B2E56B" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_87_8030"
@@ -122,10 +122,10 @@ export default function PyCharmIcon({ className }: TIconCompProps) {
           y2="19.8258"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.387" stop-color="#FCF84A" />
-          <stop offset="0.536" stop-color="#ECF451" />
-          <stop offset="0.826" stop-color="#C2E964" />
-          <stop offset="0.925" stop-color="#B2E56B" />
+          <stop offset="0.387" stopColor="#FCF84A" />
+          <stop offset="0.536" stopColor="#ECF451" />
+          <stop offset="0.826" stopColor="#C2E964" />
+          <stop offset="0.925" stopColor="#B2E56B" />
         </linearGradient>
         <clipPath id="clip0_87_8030">
           <rect width="32" height="32" fill="white" />
