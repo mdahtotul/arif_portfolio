@@ -5,10 +5,12 @@ import SkillSection from "@/components/HomeComponents/AboutPortion/SkillSection"
 import BlogSection from "@/components/HomeComponents/BlogPortion/BlogSection";
 import ClientSection from "@/components/HomeComponents/ClientPortion/ClientSection";
 import ComparisonSection from "@/components/HomeComponents/ComparisonPortion/ComparisonSection";
+import ContributionSection from "@/components/HomeComponents/ContributionPortion/ContributionSection";
 import ExperienceSection from "@/components/HomeComponents/ExperiencePortion/ExperienceSection";
 import HeroSection from "@/components/HomeComponents/HeroPortion/HeroSection";
 import ProjectSection from "@/components/HomeComponents/ProjectPortion/ProjectSection";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import { Suspense } from "react";
 
 export default async function HomePage() {
   const blogData = await listYoutubeBlog();
@@ -35,6 +37,9 @@ export default async function HomePage() {
         <BlogSection data={blogData} />
 
         <ExperienceSection />
+        <Suspense>
+          <ContributionSection />
+        </Suspense>
 
         <ClientSection />
       </div>

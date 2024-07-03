@@ -142,3 +142,25 @@ body,
     hsl(0, 100%, 50%) 360deg
   );
 }
+
+::selection {
+  background: #ff4533; /* Background color of the selected text */
+  color: #fcfcfa; /* Text color of the selected text */
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff4533; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff220e; /* Color of the thumb when hovered */
+}
