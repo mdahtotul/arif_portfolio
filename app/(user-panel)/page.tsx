@@ -10,7 +10,6 @@ import ExperienceSection from "@/components/HomeComponents/ExperiencePortion/Exp
 import HeroSection from "@/components/HomeComponents/HeroPortion/HeroSection";
 import ProjectSection from "@/components/HomeComponents/ProjectPortion/ProjectSection";
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import { Suspense } from "react";
 
 export default async function HomePage() {
   const blogData = await listYoutubeBlog();
@@ -37,9 +36,8 @@ export default async function HomePage() {
         <BlogSection data={blogData} />
 
         <ExperienceSection />
-        <Suspense>
-          <ContributionSection />
-        </Suspense>
+
+        <ContributionSection />
 
         <ClientSection />
       </div>
