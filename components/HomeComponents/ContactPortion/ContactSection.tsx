@@ -19,6 +19,11 @@ export default function ContactSection() {
         <RotateEarth />
       </div>
 
+      <div className="text-center mt-10 text-sm">
+        &copy; {new Date().getFullYear()} | MD ARIFUL HASAN. All rights
+        reserved.
+      </div>
+
       <StarsCanvas />
     </section>
   );
