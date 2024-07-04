@@ -5,6 +5,7 @@ import SkillSection from "@/components/HomeComponents/AboutPortion/SkillSection"
 import BlogSection from "@/components/HomeComponents/BlogPortion/BlogSection";
 import ClientSection from "@/components/HomeComponents/ClientPortion/ClientSection";
 import ComparisonSection from "@/components/HomeComponents/ComparisonPortion/ComparisonSection";
+import ContactSection from "@/components/HomeComponents/ContactPortion/ContactSection";
 import ContributionSection from "@/components/HomeComponents/ContributionPortion/ContributionSection";
 import ExperienceSection from "@/components/HomeComponents/ExperiencePortion/ExperienceSection";
 import HeroSection from "@/components/HomeComponents/HeroPortion/HeroSection";
@@ -40,6 +41,8 @@ export default async function HomePage() {
         <ContributionSection />
 
         <ClientSection />
+
+        <ContactSection />
       </div>
     </div>
   );
