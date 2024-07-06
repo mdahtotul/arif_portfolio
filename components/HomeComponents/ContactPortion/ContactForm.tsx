@@ -7,8 +7,10 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { SendIcon } from "lucide-react";
 import { useRef, useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 export default function ContactForm() {
+  const [ref, inView] = useInView({ triggerOnce: true });
   const formRef = useRef<HTMLFormElement>(null);
   const initialData = {
     name: "",
@@ -58,7 +60,10 @@ export default function ContactForm() {
 
   return (
     <motion.div
+      ref={ref}
       variants={slideIn("left", "tween", 0.2, 1)}
+      initial="hidden"
+      animate={inView ? "show" : "hidden"}
       className="flex-[0.75] bg-secondary_white dark:bg-secondary_black p-8 rounded-2xl"
     >
       <form

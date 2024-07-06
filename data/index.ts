@@ -454,6 +454,28 @@ export const dummyListProjects: TProjectItem[] = [
     live_site: "https://desier.netlify.app/",
     client_repo: "https://github.com/arifulhasantotul/projectdesire",
   },
+  {
+    id: 9,
+    title: "Tracko",
+    projectOwnerType: "personal",
+    categories: ["Full-stack"],
+    priority: 9,
+    status: "completed",
+    description: "To track the progress of your projects",
+    tags: [" Next.js", "Tailwind", " TypeScript", "Convex", " VS Code"],
+    thumbnail: "https://i.ibb.co/jGZwN1S/tracko-1.png",
+    sub_images: [
+      "https://i.ibb.co/C28VpH5/des1.jpg",
+      "https://i.ibb.co/TcS165c/des2.jpg",
+      "https://i.ibb.co/1QWB0Mz/des3.jpg",
+      "https://i.ibb.co/6bFLfT2/des4.jpg",
+      "https://i.ibb.co/3kPzr3z/des5.jpg",
+      "https://i.ibb.co/wYLyTDC/des6.jpg",
+    ],
+    techIconLists: ["nextjs", "ts", "tailwind", "git", "vscode"],
+    live_site: "https://trackox.vercel.app/",
+    client_repo: "https://github.com/mdahtotul/tracko",
+  },
 ];
 
 export const dummyListExperience: TExperienceItem[] = [

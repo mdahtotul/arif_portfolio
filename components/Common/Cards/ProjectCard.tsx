@@ -15,7 +15,7 @@ export default function ProjectCard({ item }: { item: TProjectItem }) {
       <PinContainer title={item?.live_site} href={item?.live_site}>
         <div className="relative flex items-center justify-center w-[80vw] sm:w-[570px] h-[28vh] sm:h-[330px] overflow-hidden mb-5">
           <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-primary_gray dark:bg-[#13162d]">
-            <img src="/bg.png" alt="bg-img" />
+            <img src="/bg.png" alt="bg-img" className="z-[-1]" />
           </div>
           <img
             src={item?.thumbnail}

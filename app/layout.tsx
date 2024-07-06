@@ -12,8 +12,9 @@ import "swiper/css/pagination";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://arifulhasan.netlify.app"),
-  title: { default: "Arif's Portfolio", template: "%s - Arif's Portfolio" },
-  description: "Web developer portfolio of MD ARIFUL HASAN created by Next.js",
+  title: { default: "MD ARIFUL HASAN", template: "%s - MD ARIFUL HASAN" },
+  description:
+    "Web developer portfolio of MD ARIFUL HASAN created by Next.js, Tailwindcss, Three.js",
   authors: [
     {
       name: "MD ARIFUL HASAN",
